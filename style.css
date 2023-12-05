@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    border-radius: 50%;
+}
+h1{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    color: #eae8e9;
+}
+ul,ol li{
+    list-style: none;
+}
+#landing-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 4px solid red; */
+    gap: 50px;
+}
+#landing-page li{
+    list-style: none;
+    text-align: center;
+}
+#landing-page li a{
+    text-decoration: none;
+}
+#landing-page li a #lasagna{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg,#e9be94,#c86700,#f7d7a0,#9d6600,#ffd381);
+    box-shadow: 3px 3px 3px gray;
+}
+#landing-page li a #smoothie{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg,#ccc2ae,#dac0cb,#e0d1d5,#5c7594,#ec5094);
+    box-shadow: 3px 3px 3px gray;
+    /* background-image: linear-gradient(135deg,#645209,#ccbac3,#878288,#f7f0f8,#ebfcfb); */
+}
+#landing-page li a #pasta{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg,#f7dfaf,#f9e7c5,#fbefd7,#fdf5e7,#fefcf7);
+    box-shadow: 3px 3px 3px gray;
+    /* background-image: linear-gradient(135deg,#efeacb,#e3cb9c,#ddb475,#d5a55d,#c19650); */
+}
+#main-body{
+    background-image: url(images/background1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#lasagna-body{
+    background-image: url(images/lasagna.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#smoothie-body{
+    background-image: url(images/smoothie2.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#pasta-body{
+    background-image: url(images/pasta.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#lasagna-div{
+    /* border: 4px solid red; */
+    border-radius: 30px;
+    background-image: linear-gradient(135deg,gray,white);
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto 40px auto; 
+    padding: 20px 20px 10px 10px;  
+}
+#lasagna-div h3,h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+#lasagna-div p,li{
+    font-size: 20px;
+}
+#smoothie-div{
+    /* border: 4px solid red; */
+    border-radius: 30px;
+    background-image: linear-gradient(135deg,gray,white);
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto 40px auto;  
+    padding: 20px 20px 10px 10px;  
+}
+#smoothie-div h3,h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+#smoothie-div p,li{
+    font-size: 20px;
+}
+#pasta-div{
+    /* border: 4px solid red; */
+    border-radius: 30px;
+    background-image: linear-gradient(135deg,gray,white);
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto 40px auto;  
+    padding: 20px 20px 10px 10px;  
+}
+#pasta-div h3,h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+#pasta-div p,li{
+    font-size: 20px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 24px;
+    background-image: linear-gradient(135deg,black,white);
+    border-radius: 20px;
+}
+#homepage-btn{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
